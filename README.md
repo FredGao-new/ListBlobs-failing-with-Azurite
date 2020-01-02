@@ -24,19 +24,19 @@ azurite
 ~/apache-maven-3.6.3/bin/mvn exec:java -Dexec.mainClass="com.blobs.listex.App" -Dexec.cleanupDaemonThreads=false
 ```
 
-## Test cases that have been covered so far
+## More info
 
 ### Azurite
 
-List blobs fail when there is no blob or there are some blobs.
+List blobs fail no matter how many blobs in Azurite.
 
-Upload/Download blobs pass with Azurite.
+Upload/Download blobs works well with Azurite.
 
 ### Azure Portal
 
-List blobs pass when there is no blob or there are some blobs.
+List blobs pass no matter how many blobs in Azure Portal.
 
-Upload/Download blobs pass with Azure Portal.
+Upload/Download blobs works well with Azure Portal.
 
 
 <!--LINKS-->
